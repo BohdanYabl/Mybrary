@@ -1,0 +1,29 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "browser-sync": "browser-sync start --proxy 'http://localhost:3000' --files 'views/**/*.ejs, public/**/*.js, public/**/*.css'",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "browser-sync": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7"
+  }
+}
