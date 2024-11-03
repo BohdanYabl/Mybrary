@@ -1,29 +1,24 @@
 {
-  "name": "project",
+  "name": "GitHub",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "devStart": "nodemon server.js",
-    "browser-sync": "browser-sync start --proxy 'http://localhost:3000' --files 'views/**/*.ejs, public/**/*.js, public/**/*.css'",
-    "lint": "eslint ."
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.1",
-    "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^8.7.2"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.4.18"
   },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "browser-sync": "^3.0.3",
-    "dotenv": "^16.4.5",
-    "eslint": "^9.13.0",
-    "globals": "^15.11.0",
-    "nodemon": "^3.1.7"
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10"
   }
 }
